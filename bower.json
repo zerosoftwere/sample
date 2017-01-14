@@ -1,0 +1,21 @@
+{
+  "name": "sample",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "xero <zerosoftwere@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "public/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#^1.6.1",
+    "angular-route": "^1.6.1"
+  }
+}
