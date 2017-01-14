@@ -11,13 +11,15 @@
         </div>
         
         <nav class="navbar">
-        <ul class="nav">
-            <li><a href="#">Home</a></li>
-            <li><a href="#!/about">About</a></li>
-            <li><a href="#!/contact">Contact</a></li>
-        </ul>
-        <ng-view></ng-view>
-    </nav>
+            <ul class="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#!/about">About</a></li>
+                <li><a href="#!/contact">Contact</a></li>
+            </ul>
+        </nav>
+        <article>
+            <ng-view></ng-view>
+        </article>
     </div>
     <script type="text/ng-template" id="home.tpl">
         <h1>This is Home</h1>

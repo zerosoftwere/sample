@@ -1,14 +1,65 @@
+@import url("../fonts/font.css");
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #cdccff;
+}
+.navbar {
+    background-color: #3373ec;
+    padding-left: 10px;
+}
 .navbar .nav li {
-    display: inline;
-    padding-right: 20px;
+    display: inline-block;
+    background-color: #161463;
+    padding: 5px;
+    margin-right: 2px;
+    border: 1px solid #6e7d8c;
+    border-top-left-radius: 100px 5px;
+    border-top-right-radius: 100px 5px;
+    border-bottom: none;
+}
+.navbar .nav li:hover{
+    background-color: #1d3e7c;
+}
+.navbar .nav li a {
+    text-decoration: none;
+    padding: 15px;
+    color: white;
 }
 .navbar .nav {
     padding: 0px;
+    display: flex;
     margin: 0px;
 }
-
+.banner {
+    border: 1px solid transparent;
+    background-color: #0a2d3e;
+}
+.banner h1 {
+    margin: 0px;
+    font-family: Helvetica, Arial, sans-serif !important;
+    padding-left: 20px;
+    text-shadow: 4px 3px 2px rgba(0, 0, 0, 0.6);
+    color: #ff7119;
+    font-size: 32px;
+}
+.banner h1 strong {
+    font-size: 70px;
+    color: white;
+    margin-right: -.45em;
+}
 .content {
     width: 760px;
     margin: 0 auto;
-
+    border: 1px solid white;
+    border-top: none;
+    border-bottom: none;
+    background-color: #cdccff; 
+}
+.content h1, h2, h3 {
+    font-family: "PT Sans", Verdana, Geneva, Tahoma, sans-serif;
+}
+.content article {
+    padding: 15px;
 }
